@@ -1,3 +1,7 @@
+import WorkerPackage.OnTaskDoneListener;
+import WorkerPackage.OnTaskErrorListener;
+import WorkerPackage.Worker;
+
 public class Main {
 
     public static void main(String[] args) {

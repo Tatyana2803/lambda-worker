@@ -1,3 +1,8 @@
+package WorkerPackage;
+
+import WorkerPackage.OnTaskDoneListener;
+import WorkerPackage.OnTaskErrorListener;
+
 public class Worker {
 
     private OnTaskDoneListener callback;
@@ -13,7 +18,7 @@ public class Worker {
             if (i != 33) {
                 callback.onDone("Task " + i + " is done");
             } else {
-                errorCallBack.onError("Task " + i + " not done");
+                errorCallBack.onError("!!!!!Task " + i + " not done!!!!!");
             }
         }
 
